@@ -1,0 +1,181 @@
+
+<DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khám Phá Bình Thuận</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #f9f9f9, #eaeaea), url('https://www.transparenttextures.com/patterns/white-diamond.png');
+            line-height: 1.8;
+        }
+        header {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+            position: relative;
+        }
+        header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 10px;
+            background: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+            opacity: 0.5;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3.5em;
+            font-weight: 600;
+        }
+        header p {
+            margin: 20px 0 0;
+            font-size: 1.6em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ff7e5f;
+            padding: 15px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 25px;
+            font-size: 1.3em;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #333;
+        }
+        .hero {
+            background: url('https://ezcloud.vn/wp-content/uploads/2024/09/canh-dep-binh-thuan.webp') no-repeat center center/cover;
+            height: 1000px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 3.5em;
+            padding: 0 20px;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        section h2 {
+            text-align: center;
+            font-size: 3em;
+            color: #ff7e5f;
+            margin-bottom: 30px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+        section p {
+            text-align: justify;
+            max-width: 900px;
+            margin: 0 auto;
+            font-size: 1.2em;
+        }
+        .attractions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .attraction {
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            overflow: hidden;
+            width: 380px;
+            transition: transform 0.3s;
+        }
+        .attraction:hover {
+            transform: scale(1.05);
+        }
+        .attraction img {
+            width: 100%;
+            height: 270px;
+            object-fit: cover;
+            border-bottom: 5px solid #ff7e5f;
+        }
+        .attraction h3 {
+            margin: 0;
+            padding: 15px;
+            font-size: 2em;
+            background-color: #ff7e5f;
+            color: white;
+            text-align: center;
+        }
+        .attraction p {
+            padding: 15px;
+            font-size: 1.1em;
+            text-align: justify;
+        }
+        footer {
+            text-align: center;
+            padding: 25px;
+            background-color: #ff7e5f;
+            color: white;
+            margin-top: 40px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Du Lịch Bình Thuận</h1>
+        <p>Khám phá vẻ đẹp thiên nhiên và văn hóa</p>
+    </header>
+    <nav>
+        <a href="#about">Giới thiệu</a>
+        <a href="#attractions">Điểm đến</a>
+        <a href="#contact">Liên hệ</a>
+    </nav>
+    <div class="hero">
+        <h2>Đến với thiên đường nhiệt đới của Việt Nam</h2>
+    </div>
+    <section id="about">
+        <h2>Giới Thiệu</h2>
+        <p style="font-size: 1.8em; text-align: center; font-weight: bold;">
+            Bình Thuận là một tỉnh thuộc miền Nam Trung Bộ của Việt Nam, nổi tiếng với những bãi biển tuyệt đẹp, đồi cát đỏ, và nền văn hóa độc đáo. Đây là điểm đến lý tưởng cho những ai yêu thích du lịch và khám phá.
+        </p>
+    </section>]    
+    <section id="attractions">
+        <h2>Điểm Đến Nổi Bật</h2>
+        <div class="attractions">
+            <div class="attraction">
+                <img src="https://eggyolk.vn/wp-content/uploads/2024/06/mui-ne.jpeg" alt="Mũi Né">
+                <h3>Mũi Né</h3>
+                <p>Mũi Né là thiên đường du lịch biển với làn nước trong xanh, bãi cát dài và những hàng dừa xanh mát.</p>
+            </div>
+            <div class="attraction">
+                <img src="https://vnpay.vn/s1/statics.vnpay.vn/2023/9/0hwkdgxnpnd1693885184207.png" alt="Đồi Cát Bay">
+                <h3>Đồi Cát Bay</h3>
+                <p>Đồi cát với màu sắc thay đổi theo từng thời điểm trong ngày, là nơi lý tưởng để chụp ảnh và tham gia các hoạt động như trượt cát.</p>
+            </div>
+            <div class="attraction">
+                <img src="https://zoomtravel.vn/upload/images/cong-vao-thap-cham-Poshanu-11.jpg" alt="Tháp Chăm Poshanư">
+                <h3>Tháp Chăm Poshanư</h3>
+                <p>Di tích lịch sử và văn hóa của người Chăm, mang đậm nét kiến trúc độc đáo và cổ kính.</p>
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <p>Liên hệ: binhthuanquehuongtoi@gmail.com | Hotline: 0123-456-789</p>
+        <p>&copy; 2025 Khám Phá Bình Thuận</p>
+    </footer>
+</body>
+</html>
